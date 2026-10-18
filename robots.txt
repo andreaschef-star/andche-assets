@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://andreaschef-star.github.io/andche-assets/sitemap.xml
