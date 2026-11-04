@@ -16,3 +16,7 @@
 
 /* Allow the growing collection navigation to wrap at tablet widths. */
 header nav{flex-wrap:wrap;justify-content:flex-end;gap:14px 20px}header .brand{flex-shrink:0}@media(max-width:760px){header nav{justify-content:flex-start}}
+
+
+/* Standalone collections */
+.standalone-section{border-top:1px solid var(--line);padding-top:56px}.standalone-section>.lead{max-width:790px;margin-bottom:32px}.standalone-card{display:grid;grid-template-columns:1.25fr 1fr}.standalone-card>a{display:flex;align-items:center;background:#233639}.standalone-card img{aspect-ratio:16/9}.standalone-card .card-body{padding:32px}.catalog-links{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}.catalog-links a{padding:8px 15px;border:1px solid var(--line);border-radius:30px;text-decoration:none}.catalog-links a:hover{border-color:var(--green)}.preview-specs{display:flex;gap:30px;flex-wrap:wrap;margin:28px 0}.preview-specs strong{display:block;font-size:2rem;line-height:1.1}.preview-specs span{color:var(--muted);font-size:.9rem}.grocery-catalog{margin:32px 0}.grocery-catalog img{border:1px solid var(--line)}@media(max-width:760px){.standalone-card{grid-template-columns:1fr}.standalone-card .card-body{padding:24px}header nav{gap:16px}.preview-specs{gap:20px}}
